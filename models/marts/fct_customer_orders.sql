@@ -50,7 +50,7 @@ b as (
     first_name || ' ' || last_name as name, 
     * 
 
-  from customers
+  from base_customers
 
 ),
 
