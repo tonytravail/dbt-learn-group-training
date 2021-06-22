@@ -4,6 +4,7 @@ with customers as (
 orders as (
     select * from {{ ref('orders')}}
 ),
+
 customer_orders as (
     select
         customer_id,
